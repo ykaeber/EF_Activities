@@ -373,7 +373,7 @@ Second, let's look at the histogram of our fixed effect, mu, and the precisions.
 Third, let's look at the random effects. It is easy enough to plot the year effects by year. For the individual effects we'll plot these twice, first ordering the effects by plot and the second ordering them by species. Note that this chunk of code will not plot ANYTHING until the year and/or individual effects are added to the model.
 
 ```{r}
-  load("data/combined.07.RData")
+  load("data/Activity07.RData")
   par(mfrow=c(1,1))
   ### YEAR
   year.cols = grep("year",colnames(out))
